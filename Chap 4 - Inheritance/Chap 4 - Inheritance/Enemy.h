@@ -1,9 +1,11 @@
 #pragma once
 #include "Character.h"
 
-class Enemey : public Character
+class Enemy : public Character
 {
 public:
+	Enemy(float health, int x, int y);
+
 	void Draw() override;
 };
 

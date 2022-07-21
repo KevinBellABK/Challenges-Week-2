@@ -1,14 +1,7 @@
 #include "Point.h"
 
-class Point
-{
-public:
-	int x;
-	int y;
-
-	Point(int xVal, int yVal)
+	Point::Point(int xVal, int yVal)
 		: x(xVal)
 		, y(yVal)
 	{
 	}
-};

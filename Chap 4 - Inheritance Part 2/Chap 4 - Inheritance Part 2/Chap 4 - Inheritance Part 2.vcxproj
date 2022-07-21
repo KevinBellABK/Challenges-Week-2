@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{297ee338-553c-4591-b8fa-82e643b95ec2}</ProjectGuid>
-    <RootNamespace>Chap4Inheritance</RootNamespace>
+    <ProjectGuid>{b3f96d56-221c-4c25-8354-ef611803fdd6}</ProjectGuid>
+    <RootNamespace>Chap4InheritancePart2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,17 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Chap 4 - Inheritance.cpp" />
-    <ClCompile Include="Character.cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Chap 4 - Inheritance Part 2.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Character.h" />
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Point.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
