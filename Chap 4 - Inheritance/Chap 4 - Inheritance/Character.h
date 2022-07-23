@@ -12,7 +12,7 @@ protected:
 public:
 	Character(float health, int x, int y);
 
-	~Character();
+	virtual ~Character();
 
 	virtual void Draw() = 0;
 
