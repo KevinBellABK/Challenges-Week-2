@@ -338,6 +338,6 @@ int main()
         cin >> p2Name;
     }
 
-    PlayGame(p1Name, p2Name);
+    PlayGame(p1Name, p2Name); 
 
 }
