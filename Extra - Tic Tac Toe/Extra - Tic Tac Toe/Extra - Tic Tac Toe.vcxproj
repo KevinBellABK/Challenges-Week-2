@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AIPlayer.cpp" />
+    <ClCompile Include="Board.cpp" />
     <ClCompile Include="Extra - Tic Tac Toe.cpp" />
+    <ClCompile Include="HumanPlayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIPlayer.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="HumanPlayer.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
