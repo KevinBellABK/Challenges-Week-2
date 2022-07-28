@@ -21,6 +21,6 @@ public:
 
 	virtual ~Player() {};
 
-	virtual void selectPlace(__int8 board[3][3]) {};
+	virtual void selectPlace(__int8 board[3][3]) = 0;
 };
 

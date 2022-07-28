@@ -1,4 +1,5 @@
 #include "AIPlayer.h"
+#include <Windows.h>
 
 void AIPlayer::selectPlace(__int8 board[3][3])
 {
@@ -19,6 +20,8 @@ void AIPlayer::selectPlace(__int8 board[3][3])
                 viableBoard[i][j] = 2;
         }
     }
+
+    Sleep(3000);
 
     //0 == Going for Win, 1 == Blocking Win, 2 == Next to O, 3 == Random
     for (int k = 0; k < 4; k++)
